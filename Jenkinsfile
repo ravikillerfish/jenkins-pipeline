@@ -4,7 +4,7 @@ pipeline {
         NAME = "RAVI"
     }
     stages {
-        stage {
+        stage ('testing env') {
             steps{
                 sh echo "${NAME}"
             }
